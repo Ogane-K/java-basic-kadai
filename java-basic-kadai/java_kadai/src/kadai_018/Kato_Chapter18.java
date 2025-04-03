@@ -10,12 +10,7 @@ abstract public class Kato_Chapter18 {
 	Kato_Chapter18() {
 	}
 
-	//	名前をgevenNameにセットする
-	public void setGevenName(String name) {
-		this.gevenName = name;
-		System.out.println("加藤家の【" + this.gevenName + "】を作成しました。");
-
-	}
+	
 
 	//	共通部分の紹介
 	public void commonintroduce() {

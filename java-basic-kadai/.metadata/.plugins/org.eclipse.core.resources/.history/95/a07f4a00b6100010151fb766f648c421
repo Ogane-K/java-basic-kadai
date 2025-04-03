@@ -1,0 +1,44 @@
+package kadai_021;
+
+import java.util.HashMap;
+
+public class Dictionary_Chapter21 {
+
+	HashMap<String, String> dicMap;
+
+	//	コンストラクタ
+	public Dictionary_Chapter21() {
+
+		dicMap = new HashMap<String, String>();
+
+		//	単語とそのの意味を追加
+
+		dicMap.put("apple", "りんご");
+		dicMap.put("peach", "桃");
+		dicMap.put("banana", "バナナ");
+		dicMap.put("lemo", "レモン");
+		dicMap.put("pear", "梨");
+		dicMap.put("kiwi", "キウィ");
+		dicMap.put("strawberry", "いちご");
+		dicMap.put("grape", "ぶどう");
+		dicMap.put("muscat", "マスカット");
+		dicMap.put("cherry", "さくらんぼ");
+		
+		System.out.println("辞書を作成しました。/n要素数は" + dicMap.size() + "です");
+
+	}
+
+	//	入力された単語が辞書内に存在するかチェック
+	public void chekDictionary(String word) {
+
+		//	存在しない場合
+		if (dicMap.get(word) == null) {
+			System.out.println(word + "は辞書に存在しません");
+			return;
+		}
+		
+		System.out.println(word + "の意味は" + dicMap.get(word) );
+
+	}
+
+}

@@ -1,33 +1,96 @@
-0:29:54 Tab1 RenderProcessGone
-0:29:54 Browser1 Close Tab1 at 0
-0:29:54 Tab1 WebContentsDestroyed
-0:29:54 Microsoft.Shutdown.OnWindowClosing
-0:29:54 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-0:29:54 Widget Closed: BrowserFrame
-0:29:54 Microsoft.Shutdown.OnWindowClosing
-0:29:54 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-0:29:54 Microsoft.Browser_Removed
-0:29:54 Microsoft.NewBrowser_Popup
-0:29:54 Microsoft.BrowserList.AddBrowser
-0:29:54 Browser10 Insert active Tab10 at 0
-0:29:54 Tab10 StartNav63 #auto_toplevel
-0:29:54 Tab10 StartNav64 #typed
-0:29:54 Tab10 FinishNav63
-0:29:54 Tab10 PageLoad
-0:29:54 Tab10 FinishNav64
-0:29:54 Tab10 PageLoad
-0:29:56 Microsoft.NewBrowser_Popup
-0:29:56 Microsoft.BrowserList.AddBrowser
-0:29:56 Browser11 Insert active Tab11 at 0
-0:29:56 Tab11 StartNav65 #auto_toplevel
-0:29:56 Tab11 StartNav66 #typed
-0:29:56 Tab11 FinishNav65
-0:29:56 Tab11 PageLoad
-0:29:56 Tab11 FinishNav66
-0:29:56 Tab11 PageLoad
-0:29:56 Tab10 StartNav67 #typed
-0:29:56 Tab10 FinishNav67
-0:29:56 Tab10 PageLoad
-0:29:58 Tab11 StartNav68 #typed
-0:29:58 Tab11 FinishNav68
-0:29:58 Tab11 PageLoad
+1:47:54 Tab23 PageLoad
+1:47:59 Tab23 StartNav131 #typed
+1:47:59 Tab23 FinishNav131
+1:47:59 Tab23 PageLoad
+1:50:10 Microsoft.NewBrowser_Popup
+1:50:10 Microsoft.BrowserList.AddBrowser
+1:50:10 Browser24 Insert active Tab24 at 0
+1:50:10 Tab24 StartNav132 #auto_toplevel
+1:50:10 Tab24 StartNav133 #typed
+1:50:10 Tab24 FinishNav132
+1:50:10 Tab24 PageLoad
+1:50:10 Tab24 FinishNav133
+1:50:10 Tab24 PageLoad
+1:50:13 Tab24 StartNav134 #typed
+1:50:13 Tab24 FinishNav134
+1:50:13 Tab24 PageLoad
+1:50:13 Microsoft.Shutdown.OnWindowClosing
+1:50:13 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+1:50:13 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+1:50:13 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+1:50:13 Tab24 RenderProcessGone
+1:50:13 Browser24 Close Tab24 at 0
+1:50:13 Tab24 WebContentsDestroyed
+1:50:13 Microsoft.Shutdown.OnWindowClosing
+1:50:13 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+1:50:13 Widget Closed: BrowserFrame
+1:50:13 Microsoft.Shutdown.OnWindowClosing
+1:50:13 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+1:50:13 Microsoft.Browser_Removed
+1:51:24 Tab23 StartNav135 #typed
+1:51:24 Tab23 FinishNav135
+1:51:24 Tab23 PageLoad
+1:51:26 Tab23 StartNav136 #typed
+1:51:26 Tab23 FinishNav136
+1:51:26 Tab23 PageLoad
+1:51:35 Tab23 StartNav137 #typed
+1:51:35 Tab23 FinishNav137
+1:51:35 Tab23 PageLoad
+1:51:37 Tab23 StartNav138 #typed
+1:51:37 Tab23 FinishNav138
+1:51:37 Tab23 PageLoad
+1:51:41 Tab23 StartNav139 #typed
+1:51:41 Tab23 FinishNav139
+1:51:41 Tab23 PageLoad
+1:51:43 Tab23 StartNav140 #typed
+1:51:43 Tab23 FinishNav140
+1:51:43 Tab23 PageLoad
+1:51:44 Tab23 StartNav141 #typed
+1:51:44 Tab23 FinishNav141
+1:51:44 Tab23 PageLoad
+1:51:48 Tab23 StartNav142 #typed
+1:51:48 Tab23 FinishNav142
+1:51:48 Tab23 PageLoad
+1:51:51 Tab23 StartNav143 #typed
+1:51:51 Tab23 FinishNav143
+1:51:51 Tab23 PageLoad
+1:51:53 Tab23 StartNav144 #typed
+1:51:53 Tab23 FinishNav144
+1:51:53 Tab23 PageLoad
+1:51:55 Tab23 StartNav145 #typed
+1:51:55 Tab23 FinishNav145
+1:51:55 Tab23 PageLoad
+1:51:55 Tab23 StartNav146 #typed
+1:51:55 Tab23 FinishNav146
+1:51:55 Tab23 PageLoad
+1:52:00 Tab23 StartNav147 #typed
+1:52:00 Tab23 FinishNav147
+1:52:00 Tab23 PageLoad
+1:52:07 Tab23 StartNav148 #typed
+1:52:07 Tab23 FinishNav148
+1:52:07 Tab23 PageLoad
+1:53:22 Microsoft.NewBrowser_Popup
+1:53:22 Microsoft.BrowserList.AddBrowser
+1:53:22 Browser25 Insert active Tab25 at 0
+1:53:22 Tab25 StartNav149 #auto_toplevel
+1:53:22 Tab25 StartNav150 #typed
+1:53:22 Tab25 FinishNav149
+1:53:22 Tab25 PageLoad
+1:53:22 Tab25 FinishNav150
+1:53:22 Tab25 PageLoad
+1:53:23 Tab25 StartNav151 #typed
+1:53:23 Tab25 FinishNav151
+1:53:23 Tab25 PageLoad
+1:53:34 Microsoft.Shutdown.OnWindowClosing
+1:53:34 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+1:53:34 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+1:53:34 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+1:53:34 Tab23 RenderProcessGone
+1:53:34 Browser23 Close Tab23 at 0
+1:53:34 Tab23 WebContentsDestroyed
+1:53:34 Microsoft.Shutdown.OnWindowClosing
+1:53:34 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+1:53:34 Widget Closed: BrowserFrame
+1:53:34 Microsoft.Shutdown.OnWindowClosing
+1:53:34 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+1:53:34 Microsoft.Browser_Removed

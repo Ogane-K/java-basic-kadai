@@ -1,0 +1,36 @@
+package kadai_018;
+
+abstract public class Kato_Chapter18 {
+
+	public String familyName = "加藤";
+	public String gevenName = "";
+	public String address = "東京都中野区〇×";
+
+	//	コンストラクタ 初期化用
+	Kato_Chapter18() {
+	}
+
+	//	名前をgevenNameにセットする
+	public void setGevenName(String name) {
+		this.gevenName = name;
+		System.out.println("加藤家の【" + this.gevenName + "】を作成しました。");
+
+	}
+
+	//	共通部分の紹介
+	public void commonintroduce() {
+		System.out.println("名前は" + this.familyName + this.gevenName + "です");
+		System.out.println("住所は" + address + "です");
+	}
+
+	//	個別部分の紹介
+	abstract public void eachintroduce();
+
+	//	紹介を実行する
+	public void execintroduce() {
+		this.commonintroduce();
+		this.eachintroduce();
+
+	}
+
+}

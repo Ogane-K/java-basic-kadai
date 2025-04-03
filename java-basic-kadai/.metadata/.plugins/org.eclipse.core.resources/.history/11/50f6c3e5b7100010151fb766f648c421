@@ -16,7 +16,7 @@ public class Dictionary_Chapter21 {
 		dicMap.put("apple", "りんご");
 		dicMap.put("peach", "桃");
 		dicMap.put("banana", "バナナ");
-		dicMap.put("lemon", "レモン");
+		dicMap.put("lemo", "レモン");
 		dicMap.put("pear", "梨");
 		dicMap.put("kiwi", "キウィ");
 		dicMap.put("strawberry", "いちご");

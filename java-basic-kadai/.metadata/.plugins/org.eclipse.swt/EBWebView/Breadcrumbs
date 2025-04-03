@@ -94,3 +94,9 @@
 1:53:34 Microsoft.Shutdown.OnWindowClosing
 1:53:34 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
 1:53:34 Microsoft.Browser_Removed
+2:01:18 Tab25 StartNav152 #typed
+2:01:18 Tab25 FinishNav152
+2:01:18 Tab25 PageLoad
+2:01:20 Tab25 StartNav153 #typed
+2:01:20 Tab25 FinishNav153
+2:01:20 Tab25 PageLoad

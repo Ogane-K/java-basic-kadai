@@ -72,7 +72,7 @@ public class Jyanken_Chapter28 {
 		String enemyHand = null;
 
 		//		0から2までの乱数を設定
-		int randomNumber = (int) Math.floor(Math.random() * 3);
+		int randomNumber = (int) (Math.floor(Math.random() * 3));
 
 		//		乱数に応じて対戦相手の手を決定する
 		switch (randomNumber) {

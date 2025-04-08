@@ -7,8 +7,9 @@ public class KatoTaro_Chapter18 extends Kato_Chapter18 {
 	}
 
 	//	名前をgevenNameにセットする
-	public void setGevenName() {
-		this.gevenName = "太郎";
+	public void setGevenName(String name) {
+		this.gevenName = name;
+		System.out.println("加藤家の【" + this.gevenName + "】を作成しました。");
 
 	}
 

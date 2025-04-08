@@ -4,15 +4,16 @@ public class KatoExec_Chapter18 {
 
 	public static void main(String[] args) {
 		
-		Kato_Chapter18 taro		= new KatoTaro_Chapter18();
-		Kato_Chapter18 ichiro 	= new KatoIchiro_Chapter18();
-		Kato_Chapter18 hanako = new KatoHanako_Chapter18();
+		KatoTaro_Chapter18 taro		= new KatoTaro_Chapter18();
+		KatoIchiro_Chapter18 ichiro 	= new KatoIchiro_Chapter18();
+		KatoHanako_Chapter18 hanako = new KatoHanako_Chapter18();
 		
 		
-//		キャスト
-		((KatoTaro_Chapter18)taro).setGevenName("太郎");
-		((KatoIchiro_Chapter18)ichiro).setGevenName("一郎");
-		((KatoHanako_Chapter18)hanako).setGevenName("花子");
+
+		taro.setGevenName();
+		ichiro.setGevenName();
+		hanako.setGevenName();
+		
 		
 		taro.execintroduce();
 		ichiro.execintroduce();

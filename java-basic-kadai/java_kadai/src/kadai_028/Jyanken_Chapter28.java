@@ -1,0 +1,117 @@
+package kadai_028;
+
+import java.util.Scanner;
+
+public class Jyanken_Chapter28 {
+
+	//	メインメソッド
+	public static void main(String[] args) {
+
+		//クラス内のメソッドを呼び出すので、インスタンス化
+		Jyanken_Chapter28 jyanken = new Jyanken_Chapter28();
+
+		//		じゃんけんを実行する
+		jyanken.playGame();
+
+	}
+
+	//	文字入力を促すメソッド
+	public String getMyChoise() {
+
+		//		フィールド宣言
+		String inputHand = null;
+		Scanner scanner = new Scanner(System.in);
+
+		//		実行時の表示
+		System.out.println("自分のじゃんけんの手を入力しましょう");
+		System.out.println("グーはrockのrを入力しましょう");
+		System.out.println("チョキはscissorsのsを入力しましょう");
+		System.out.println("パーはpaperのpを入力しましょう");
+
+		//		ループの判定用変数
+		boolean inputCheck = true;
+		//			入力した文字がグー・チョキ・パーのどれか以外ならエラーを返して再度ループ		
+		while (inputCheck) {
+
+			//			入力した文字を変数に入れる
+			inputHand = scanner.nextLine();
+
+			//			入れた文字を判定
+			try {
+
+				if (!(inputHand.equals("r") || inputHand.equals("s") || inputHand.equals("p"))) {
+					throw new IllegalArgumentException("入力する文字は r s p のいずれかの文字にしてください");
+				}
+
+				inputCheck = false;
+
+			} catch (IllegalArgumentException e) {
+				System.out.println("エラー:" + e.getMessage());
+				System.out.println("再度文字を入力してください");
+			}
+		}
+
+		scanner.close();
+
+		//		入力した文字を自分の手にする
+		String myHand = switch (inputHand) {
+
+		case "r" -> "グー";
+		case "s" -> "チョキ";
+		case "p" -> "パー";
+		default -> "これは起こらないはずだよ";
+
+		};
+		return myHand;
+	}
+
+	//	ランダムな相手の手を作成するメソッド
+	public String getRandom() {
+
+		//		フィールドの宣言
+		String enemyHand = null;
+
+		//		0から2までの乱数を設定
+		int randomNumber = (int) Math.round(Math.random() * 2);
+
+		//		乱数に応じて対戦相手の手を決定する
+		switch (randomNumber) {
+
+		case 0 -> enemyHand = "グー";
+		case 1 -> enemyHand = "チョキ";
+		case 2 -> enemyHand = "パー";
+
+		}
+
+		return enemyHand;
+	}
+
+	//	じゃんけんを実行するメソッド
+	public void playGame() {
+
+		//		フィールドの宣言
+		String myHand = this.getMyChoise();
+		String enemyHand = this.getRandom();
+
+		//		結果表示
+		System.out.println("自分の手は" + myHand + ",相手の手は" + enemyHand);
+
+		//		自分が勝った時
+		if ((myHand.equals("グー") && enemyHand.equals("チョキ")) ||
+				(myHand.equals("チョキ") && enemyHand.equals("パー")) ||
+				(myHand.equals("パー") && enemyHand.equals("グー"))) {
+
+			System.out.println("自分の勝ちです");
+
+		} else if (myHand.equals(enemyHand)) {
+			//			あいこの場合
+			System.out.println("あいこです");
+
+		} else {
+			//			相手の勝ちの場合
+			System.out.print("相手の勝ちです");
+		}
+
+	}
+
+}
